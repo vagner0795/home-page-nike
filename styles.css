@@ -1,0 +1,210 @@
+/* RESET PAGE CONFIG */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+body {
+    overflow: hidden;
+    background: #218100;
+}
+
+/* HEADER CONFIG */
+
+.navigation {
+    display: flex;
+    margin: 50px 0 0 50px;
+ 
+
+}
+
+.logo {
+    margin-top: 12px;
+    margin-right: 900px;
+
+    font-weight: 700px;
+    font-size: 30px;
+    line-height: 29px;
+    
+}
+
+.link {
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.link:hover{
+    color: #68ea03;
+    letter-spacing: 3px;
+    transition: all 0.7s ease-in-out;
+
+}
+
+.button-cart {
+    width: 113px;
+    background: #68ea03;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 15px;
+    padding-right: 20px;
+
+}
+
+.button-cart:hover{
+    background: #59c10a;
+    transition: all 0.6s ease;
+}
+
+
+.compra {
+    position: absolute;
+    width: 19px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+/* CONTENT CONFIG */
+
+.container-principal {
+    background: linear-gradient(179.8deg, #218100 38.78%, rgba(35, 136, 0, 0) 115%);
+    height: 90%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+height: 800px;
+width: 800px;
+display: flex;
+flex-direction: column;
+margin-left: 200px;
+margin-top: 100px;
+}
+
+.container-image{
+    height: 800px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.circle-white {
+
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  
+}
+
+
+.tenis {
+    height: 500px;
+    position: absolute;
+    left: 800px;
+
+
+}
+h1 {
+    font-weight: 800;
+    font-size: 150px;
+   
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 614px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    width: 119px;
+    margin-bottom: 20px;
+}
+
+.button-buy {
+    font-weight: 400;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    background: #FF7A00;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-buy:hover {
+    background: #d56b07;
+
+}
+
+.button-buy:active {
+    opacity: .6;
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* RESET CONFIG */
+    *{
+        margin: 0;
+    }
+
+    /* HEADER CONFIG */
+    .logo{
+        margin-right: 70px;
+    }
+
+    .button-cart {
+        width: 300px;
+        min-width: 125px;
+    }
+
+
+    /* CONTENT CONFIG */
+
+    .container-principal{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 300px;
+
+    }
+
+    .container-image{
+        margin-top: 150px;
+        height: 600px;
+    }
+    .circle-white{
+        margin-left: 200px;
+    }
+
+    .tenis{
+        left: 20px;
+
+    }
+
+    
+}
+
+
+
+
